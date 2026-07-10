@@ -29,4 +29,13 @@
 }
 .btns button{
     margin: 0 8px;
+    padding: 2px 15px;
+    border: none;
+    border: 2px solid orange;
+    border-radius: 5px;
 }
+.btns button:nth-child(2){
+    background-color: orange;
+    color: white;
+}
+
