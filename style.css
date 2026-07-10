@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: nunito;
+}
+
+/* Navbar styles  */
+
+.navbar{
+    background-color: yellow;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+}
+.logo i{
+    font-size: 23px;
+}
