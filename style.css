@@ -7,7 +7,6 @@
 /* Navbar styles  */
 
 .navbar{
-    background-color: yellow;
     padding: 0 50px;
     display: flex;
     justify-content: space-between;
@@ -19,4 +18,15 @@
 }
 .logo i{
     font-size: 23px;
+}
+.links a{
+    text-decoration: none;
+    margin: 0 5px;
+}
+.links a:hover{
+    color: black;
+    font-weight: 700;
+}
+.btns button{
+    margin: 0 8px;
 }
