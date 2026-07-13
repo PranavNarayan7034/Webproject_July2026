@@ -7,6 +7,7 @@
 /* Navbar styles  */
 
 .navbar{
+    height: 70px;
     padding: 0 50px;
     display: flex;
     justify-content: space-between;
@@ -39,3 +40,15 @@
     color: white;
 }
 
+
+/* Hero Styles */
+
+.Hero{
+    height: calc(100vh - 70px);
+    display: flex;
+    padding: 0 50px;
+}
+.left,.right{
+    height: 100%;
+    width: 100%;
+}
