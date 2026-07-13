@@ -8,14 +8,13 @@
 
 .navbar{
     height: 70px;
-    padding: 0 50px;
+    padding: 20px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .logo img{
     height: 80px;
-    width: 80px;
 }
 .logo i{
     font-size: 23px;
@@ -44,11 +43,32 @@
 /* Hero Styles */
 
 .Hero{
-    height: calc(100vh - 70px);
+    height: calc(100vh - 110px);
     display: flex;
-    padding: 0 50px;
+    padding: 0 80px;
 }
 .left,.right{
     height: 100%;
     width: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.Hero .left h1{
+    font-family: changa one;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.account{
+    display: flex;
+    gap: 5rem;
+}
+.account button{
+    background-color: blue;
+    padding: 5px 10px;
+    border: none;
 }
