@@ -38,7 +38,29 @@
     background-color: orange;
     color: white;
 }
+.icon{
+    display: none;
+    font-size: 30px;
+}
 
+@media (max-width:1000px){
+    .navbar{
+        padding: 20px 50px;
+    }
+}
+@media (max-width:700px){
+    .navbar{
+        padding: 20px 25px;
+    }
+}
+@media (max-width:600px){
+    .icon{
+        display: block;
+    }
+    .links,.btns{
+        display: none;
+    }
+}
 
 /* Hero Styles */
 
